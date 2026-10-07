@@ -19,7 +19,7 @@ A professional Python-based financial engineering project focused on the **impli
 ### 1. Coupon-Bearing Yield-to-Maturity (DCF)
 The actual market dirty price (\(P_{dirty}\)) of a coupon bond is mapped to its spot YTM via numerical optimization (Newton-Raphson method):
 
-\[P_{dirty} = \sum_{k=1}^{n} \frac{CF_k}{\left(1 + \frac{YTM}{2}\right)^{2 \cdot t_k}}\]
+$\[P_{dirty} = \sum_{k=1}^{n} \frac{CF_k}{\left(1 + \frac{YTM}{2}\right)^{2 \cdot t_k}}\]$
 
 ### 2. Complex Vectorization
 Individual bonds are mapped onto the complex plane to capture cyclical wave features:
