@@ -7,9 +7,9 @@ A professional Python-based financial engineering project focused on the **impli
 ## 🚀 Key Features
 
 * **Discrete Coupon DCF Forward Matrix:** Calculates exact implied forward YTMs ("break-even rates") using semi-annual coupon profiles, matching the official **Moscow Exchange (MOEX)** calculation standards.
-* **Complex Phase-Space Vectorization:** Translates continuous yield curves into polar complex coordinates \(Z(t) = R(t) \cdot e^{i \cdot \phi(t)}\), encoding YTM amplitude as the modulus and macroeconomic time lags as the argument (phase).
+* **Complex Phase-Space Vectorization:** Translates continuous yield curves into polar complex coordinates $$\(Z(t) = R(t) \cdot e^{i \cdot \phi(t)}\)$$, encoding YTM amplitude as the modulus and macroeconomic time lags as the argument (phase).
 * **Fourier Harmonic Analysis (FFT):** Decomposes continuous interest rate fluctuations into a frequency spectrum to separate dominant structural institutional trends from daily liquidity noise.
-* **Stochastic Vortex Simulation:** Models interest rate dynamics as an attractor-driven stochastic wave process spinning in the complex plane (\(Re / Im\)).
+* **Stochastic Vortex Simulation:** Models interest rate dynamics as an attractor-driven stochastic wave process spinning in the complex plane $$(\(Re / Im\))$$.
 * **Vortex Stop-Loss Algorithm:** A phase-space quantitative risk-filter that tracks Euclidean distance thresholds on the complex plane and deploys consecutive confirmation window triggers to exit positions dynamically at the early genesis of market panics.
 
 ---
