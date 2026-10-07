@@ -24,12 +24,12 @@ $$\[P_{dirty} = \sum_{k=1}^{n} \frac{CF_k}{\left(1 + \frac{YTM}{2}\right)^{2 \cd
 ### 2. Complex Vectorization
 Individual bonds are mapped onto the complex plane to capture cyclical wave features:
 
-\[Z_{bond} = \text{YTM}_{spot} \cdot \left(\cos(\phi) + i \cdot \sin(\phi)\right)\]
+$$\[Z_{bond} = \text{YTM}_{spot} \cdot \left(\cos(\phi) + i \cdot \sin(\phi)\right)\]$$
 
 ### 3. Phase-Space Trajectory Distance
 Risk accumulation and macro-regime shifts are captured by tracking the trajectory variance from the steady-state vortex center (\(\mu_{Re}, \mu_{Im}\)):
 
-\[\text{Distance} = \sqrt{(Re(Z) - \mu_{Re})^2 + (Im(Z) - \mu_{Im})^2}\]
+$$\[\text{Distance} = \sqrt{(Re(Z) - \mu_{Re})^2 + (Im(Z) - \mu_{Im})^2}\]$$
 
 ---
 
