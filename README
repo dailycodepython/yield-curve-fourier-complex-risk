@@ -7,9 +7,9 @@ A professional Python-based financial engineering project focused on the **impli
 ## 🚀 Key Features
 
 * **Discrete Coupon DCF Forward Matrix:** Calculates exact implied forward YTMs ("break-even rates") using semi-annual coupon profiles, matching the official **Moscow Exchange (MOEX)** calculation standards.
-* **Complex Phase-Space Vectorization:** Translates continuous yield curves into polar complex coordinates $\(Z(t) = R(t) \cdot e^{i \cdot \phi(t)}\$), encoding YTM amplitude as the modulus and macroeconomic time lags as the argument (phase).
+* **Complex Phase-Space Vectorization:** Translates continuous yield curves into polar complex coordinates \(Z(t) = R(t) \cdot e^{i \cdot \phi(t)}\), encoding YTM amplitude as the modulus and macroeconomic time lags as the argument (phase).
 * **Fourier Harmonic Analysis (FFT):** Decomposes continuous interest rate fluctuations into a frequency spectrum to separate dominant structural institutional trends from daily liquidity noise.
-* **Stochastic Vortex Simulation:** Models interest rate dynamics as an attractor-driven stochastic wave process spinning in the complex plane ($\(Re / Im\$)).
+* **Stochastic Vortex Simulation:** Models interest rate dynamics as an attractor-driven stochastic wave process spinning in the complex plane (\(Re / Im\)).
 * **Vortex Stop-Loss Algorithm:** A phase-space quantitative risk-filter that tracks Euclidean distance thresholds on the complex plane and deploys consecutive confirmation window triggers to exit positions dynamically at the early genesis of market panics.
 
 ---
@@ -37,6 +37,8 @@ Risk accumulation and macro-regime shifts are captured by tracking the trajector
 
 When a macroeconomic shock hits the fixed-income market (e.g., a sudden key rate hike by the central bank), the rate trajectory undergoes a spectacular geometric transformation:
 
+![Complex Vortex Phase Space](vortex_plot.jpg)
+
 1. **Steady State:** Rates spin closely inside a stable **complex torus (annular ring)** representing standard market mean-reversion noise.
 2. **The Shock Event:** The equilibrium shifts instantly.
 3. **The Spiral Transition:** The complex trajectory does not jump linearly; it accelerates outward in a **spiral vortex** until it stabilizes on a wider outer orbit (higher interest rate regime).
@@ -44,6 +46,8 @@ When a macroeconomic shock hits the fixed-income market (e.g., a sudden key rate
 ---
 
 ## 🛠️ Tech Stack & Dependencies
+
+[![Open In Colab](https://google.com)](https://google.com)
 
 * **Python 3.8+**
 * `numpy` — for vectorized matrix algebra and FFT execution.
@@ -60,3 +64,4 @@ When a macroeconomic shock hits the fixed-income market (e.g., a sudden key rate
 
 ---
 *Created for personal quantitative research, financial modeling exploration, and mathematical refinement.* 🧠⚙️
+
